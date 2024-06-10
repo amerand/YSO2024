@@ -13,3 +13,4 @@ git clone https://github.com/amerand/YSO2024
 cd YSO2024
 jupyterlab
 ``` 
+Alternatively, if you do not have `git` on your machine, get the [.zip archive](https://github.com/amerand/YSO2024/archive/refs/heads/main.zip) 
