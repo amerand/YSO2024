@@ -9,7 +9,7 @@ cd YSO2024
 if you already have `PMOIRED`, you still need the latest version (1.2.4, from June 9th 2024). You should install `PMOIRED` in a python environment, so it will not interfere with your current installation:
 ```
 python3 -m venv ./pmoired
-. /pmoired/bin/activate
+source ./pmoired/bin/activate
 pip3 install pmoired==1.2.4 jupyterlab ipympl
 jupyter-lab
 ```
