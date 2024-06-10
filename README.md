@@ -8,12 +8,12 @@ git clone https://github.com/amerand/YSO2024
 cd YSO2024
 ```
 
-if you already havd `PMOIRED`, you still need the latest version (1.2.4, from June 9th 2024). You should install `PMOIRED` in an environment, so it will not interfere with your current installation of python3:
+if you already havd `PMOIRED`, you still need the latest version (1.2.4, from June 9th 2024). You should install `PMOIRED` in a python environment, so it will not interfere with your current installation:
 ```
 python3 -m venv ./pmoired
 . /pmoired/bin/activate
 pip3 install pmoired==1.2.4 jupyterlab ipympl
 jupyter-lab
 ```
-after exiting `jupyter-lab`, you can type `deactivate` to go back to your default python3 installation. 
+after exiting `jupyter-lab`, you can type `deactivate` in the terminal to go back to your default python3 installation. 
 
